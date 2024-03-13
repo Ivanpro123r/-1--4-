@@ -1,0 +1,45 @@
+#1 
+
+n = 1
+
+while 3*n**4 - 730*n < 5:
+    n += 1
+    
+n -= 1
+
+print(n)
+
+#2 
+
+import math
+n = 1 
+
+while math.exp(n) - 1000 * math.log(n) < 10:
+    n += 1
+n -= 1
+
+print(n)
+
+#3 
+
+m = 1000  
+k = 0
+
+while 4**k < m:
+    k += 1
+
+k -= 1  
+
+print(k)
+
+#4
+
+n = 100  
+r = 0
+power_of_2 = 1
+
+while power_of_2 <= n:
+    power_of_2 <<= 1
+    r += 1
+
+print(2**r)
